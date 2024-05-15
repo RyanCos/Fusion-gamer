@@ -5,6 +5,7 @@
 
 body{
     background-color:rgb(241, 241, 241);
+    justify-content: center;
 }
 
 #header{
@@ -48,7 +49,35 @@ body{
     justify-content: space-around;
 }
 
+#main-box{
+    display: block;
+    height: 100%;
+    width: 100%;
+}
+
+#main-box{
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    padding-top: 5%;
+}
+
+#item1{
+    display: flex;
+    width: 100%;
+}
+
+.carrousel-item{
+    display:flex;
+    justify-content: center;
+    width: 100%;
+    height: 80%;
+}
 
 .h-item{
     color: white;
+}
+
+.h-item:hover{
+    color: black;
 }
