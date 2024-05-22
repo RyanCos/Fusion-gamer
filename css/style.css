@@ -14,12 +14,12 @@ a{
 
 footer{
   display: flex;
-  background-color: antiquewhite;
+  background-color: #474234;
   height: 20%;
   width: 100%;
   flex-direction: row;
   padding-top: 5%;
-  margin-top: 10%;
+  margin-top: 5%;
 }
 
 #header{
@@ -69,20 +69,6 @@ footer{
     justify-content: space-around;
 }
 
-#main-box{
-    display: block;
-    height: 100%;
-    width: 100%;
-    justify-content: center;
-    padding-top: 5%;
-}
-
-
-#item1{
-    display: flex;
-    width: 100%;
-}
-
 #box-Sobre{
     padding-top: 20px;
 }
@@ -107,14 +93,71 @@ footer{
 
 #prior{
   font-weight: 700;
+  color: #dbcaca;
 }
 
-.carrousel-item{
-    display:flex;
-    justify-content: center;
-    width: 100%;
-    height: 60%;
+.slider{
+  margin-top: 5%;
+  width: 100%;
+  height: 400px;
+  overflow: hidden;
 }
+
+.slides{
+  width: 400%;
+  height: 400px;
+  display: flex;
+}
+
+.slides input{
+  display: none;
+}
+
+.slide{
+  width: 25%;
+  position: relative;
+}
+
+.slide img{
+  width: 100%;
+}
+
+.manual-navigation{
+  position: absolute;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 28%;
+}
+
+.manual-btn{
+  border: 2px solid #ffffff;
+  padding: 5px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 1s;
+}
+
+.manual-btn:not(:last-child){
+  margin-right: 10px;
+}
+
+.manual-btn:hover{
+  background-color: #ffffff;
+}
+
+#radio1:checked ~ .first{
+  margin-left: 0;
+}
+
+#radio2:checked ~ .first{
+  margin-left: -25%;
+}
+
+#radio3:checked ~ .first{
+  margin-left: -50%;
+}
+
 
 .h-item{
     color: white;
