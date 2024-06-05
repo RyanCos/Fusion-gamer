@@ -74,7 +74,11 @@ footer{
 }
 
 #box-Fale{
-    padding-top: 20px;
+    margin-top: 1%;
+    padding-left: 1%;
+    padding-bottom: 3%;
+    padding-top: 3%;
+    background-color: #474234;
 }
 
 #footer-div-es{
@@ -99,7 +103,7 @@ footer{
 .slider{
   margin-top: 5%;
   width: 100%;
-  height: 400px;
+  height: 600px;
   overflow: hidden;
 }
 
@@ -168,14 +172,48 @@ footer{
 }
 
 .card{
-    display: flex;
-    justify-content: center;
-    width: 850px;
-    margin: auto;
-    padding: 50px;
+  margin-top: 10%;
+  margin-right: 2%;
+  justify-content: center;
+  align-content: center;
+  background-color: #fff;
+  width: 200px;
+  height: 260px;
+  border-radius: 12px;
+  box-shadow: 4px 4px 12px #aaaa;
 }
 
+.card h1{
+  font-size: 1.2rem;
+  margin-left: 20%;
+}
 
+.card h2{
+  font-size: .9rem;
+  color: #aaaa;
+  margin-left: 20%;
+}
+
+.card img{
+  height: 120px;
+  width: 120px;
+  margin-left: 20%;
+}
+
+.card span{
+  font-weight: bold;
+  margin-left: 20%;
+}
+
+.card p{
+  margin-left: 20%;
+
+}
+
+#splitter{
+  display: flex;
+  justify-content: center;
+}
 /* sobre nós */
 #titulo{
     background-color: #282317;
